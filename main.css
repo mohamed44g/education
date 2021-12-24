@@ -14,7 +14,7 @@
 
    #contentImg
    {
-      width: 550px;
+      height: 400px;
    }
 
    #aboutboxs
@@ -23,13 +23,23 @@
       flex-wrap: wrap;
    }
 
+   #linkbg
+   {
+      display: none;
+   }
+
  }
 
- body
+ @media  (max-width: 600px)
  {
-      overflow-x: hidden;
+   #contentImg
+   {
+      height: 290px;
+   }
+
  }
  
+
  #linkbg
  {
     width: 1300px;
@@ -57,3 +67,4 @@
    background-color: #dee8ff;
    border-radius: 40px;
 }
+
