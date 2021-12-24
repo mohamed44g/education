@@ -1,0 +1,59 @@
+@media  (max-width: 1199.98px)
+ {
+
+
+   #closebtn
+   {
+      display: none;
+   }
+
+   #content
+   {
+      flex-wrap: wrap;
+   }
+
+   #contentImg
+   {
+      width: 550px;
+   }
+
+   #aboutboxs
+
+   {
+      flex-wrap: wrap;
+   }
+
+ }
+
+ body
+ {
+      overflow-x: hidden;
+ }
+ 
+ #linkbg
+ {
+    width: 1300px;
+    height: 1300px;
+    border-radius: 650px;
+    background: #dee8ff;
+    z-index: -1;
+    position: absolute;
+    top: -1150px;
+    left: -300px;
+    opacity: 0.3;
+ }
+
+ .nav-item a
+ {
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.2rem;
+ } 
+
+
+.boxs
+{
+   width: 18rem;
+   background-color: #dee8ff;
+   border-radius: 40px;
+}
